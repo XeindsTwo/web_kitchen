@@ -1,0 +1,29 @@
+.header {
+  margin-top: 30px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px 0;
+  border-bottom: 2px solid var(--primary);
+}
+
+.header__list {
+  gap: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 20px;
+
+  &.active {
+    color: var(--primary);
+    cursor: default;
+    pointer-events: none;
+  }
+}

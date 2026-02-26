@@ -1,0 +1,21 @@
+.btn {
+  padding: 13px 28px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  border: 1px solid var(--primary);
+  color: var(--dark-color);
+  transition: color .4s, background-color .4s, border .4s;
+
+  &:hover {
+    border-color: var(--dark-color);
+    color: var(--primary);
+  }
+
+  &:focus {
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: transparent;
+  }
+}
